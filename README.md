@@ -1,4 +1,4 @@
-# MERN with Monorepo Template
+# MESN with Monorepo Template
 
 ## Setup
 
