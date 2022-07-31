@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "json-server --watch ./index.js --port 9000", 
+    "dev": "json-server --watch ./index.js --port 3209", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

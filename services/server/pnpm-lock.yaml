@@ -4,18 +4,22 @@ specifiers:
   '@types/cors': ^2.8.12
   '@types/express': ^4.17.13
   body-parser: ^1.20.0
+  chalk: ^5.0.1
   cors: ^2.8.5
   dotenv: ^16.0.1
   express: ^4.18.1
+  logger: ^0.0.1
   mongodb: ^4.8.0
   mongoose: ^6.4.5
   nodemon: ^2.0.19
 
 dependencies:
   body-parser: 1.20.0
+  chalk: 5.0.1
   cors: 2.8.5
   dotenv: 16.0.1
   express: 4.18.1
+  logger: 0.0.1
   mongodb: 4.8.0
   mongoose: 6.4.5
 
@@ -188,6 +192,11 @@ packages:
     dependencies:
       function-bind: 1.1.1
       get-intrinsic: 1.1.2
+    dev: false
+
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
+    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
   /chokidar/3.5.3:
@@ -491,6 +500,11 @@ packages:
 
   /kareem/2.4.1:
     resolution: {integrity: sha512-aJ9opVoXroQUPfovYP5kaj2lM7Jn02Gw13bL0lg9v0V7SaUc0qavPs0Eue7d2DcC3NjqI6QAUElXNsuZSeM+EA==}
+    dev: false
+
+  /logger/0.0.1:
+    resolution: {integrity: sha512-UD45f4iZrsj6dQKt5QBN7K+R0hmFwGS8G+Pv8WtHjrnhrMQftIclma8b86mNtg1LKB6HDIOW/ZtjnXELBhr89w==}
+    engines: {node: '>=0.1.90'}
     dev: false
 
   /media-typer/0.3.0:
